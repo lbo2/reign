@@ -9,6 +9,7 @@ import { PostsComponent } from './components/posts/posts.component';
 
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import {MatIconModule} from '@angular/material/icon';
     NoopAnimationsModule,
     HttpClientModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

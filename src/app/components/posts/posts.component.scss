@@ -1,11 +1,33 @@
+h1 {
+    font-size: 50pt;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0px;
+}
 
+.header {
+    background-color: #999999;
+    padding: 30px;
+}
+
+.sub-header {
+    font-size: 20pt;
+    display: inline-block;
+    width: 100%;
+}
 .post_list > .post_row {
     background-color: #fff;
     border: 1px solid #cccccc;
+    padding: 0px 10px;
 }
 
 .post_list > .post_row:hover {
     background-color: #fafafa;
+}
+
+.post_list > .post_row:hover .trash{
+    display: block;
+    padding: 0pt 30%;
 }
 
 .post_title, .post_time {
@@ -16,6 +38,10 @@
 .post_author {
     font-size: 13pt;
     color: #999999;
+}
+
+.trash {
+    display: none;
 }
 
 .grid-80 {
