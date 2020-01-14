@@ -1,0 +1,23 @@
+
+.post_list > .post_row {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+}
+
+.post_list > .post_row:hover {
+    background-color: #fafafa;
+}
+
+.post_title, .post_time {
+    color: #333333;
+    font-size: 13pt;
+}
+
+.post_author {
+    font-size: 13pt;
+    color: #999999;
+}
+
+.grid-80 {
+    width: 80%;
+}

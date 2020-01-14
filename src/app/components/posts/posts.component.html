@@ -1,0 +1,14 @@
+<p>posts works!</p>
+
+<mat-nav-list class="post_list">
+    <mat-list-item class="post_row" *ngFor="let post of posts">
+        <a matLine [href]="post.story_url" target="_blank" style="width: 80%;">
+            <span class="post_title">{{ post.story_title || post.title }}.</span>
+            <span class="post_author"> - {{post.author}}</span>
+        </a>
+        <span style="width: 10%;">{{post.created_at}}</span>
+        <button style="width: 10%;" mat-icon-button (click)="showInfo()">
+            <mat-icon>delete</mat-icon>
+        </button>
+    </mat-list-item>
+</mat-nav-list>
